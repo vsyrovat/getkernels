@@ -8,6 +8,8 @@ $ git clone https://github.com/vsyrovat/getkernels.git
 $ cd ~/packages/kernels
 4. Run getkernels script with desired version as param:
 $ ~/getkernels/bin/ubuntu_get_kernel 3.16.7
+or
+$ ~/getkernels/bin/ubuntu_get_kernel 3.16.latest
 5. Find downloaded debs in ~/packages/kernels/ubuntu_3.16.7_generic_amd64
 
 REQUIREMENTS:
