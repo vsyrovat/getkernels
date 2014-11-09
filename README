@@ -1,6 +1,6 @@
 The script to get certain version of ubuntu-compiled kernel from http://kernel.ubuntu.com/~kernel-ppa/mainline/.
 
-How to use:
+HOW TO USE:
 1. Clone this repo in your folder, for example in ~/getkernels:
 $ git clone https://github.com/vsyrovat/getkernels.git
 2. Go to folder where you want kernel deb files to be placed, for example ~/packages/kernels:
@@ -8,3 +8,6 @@ $ cd ~/packages/kernels
 3. Run getkernels script with desired version as param:
 $ ~/getkernels/bin/ubuntu_get_kernel 3.16.7
 4. Find downloaded debs in ~/packages/kernels/ubuntu_3.16.7_generic_amd64
+
+REQUIREMENTS:
+axel
